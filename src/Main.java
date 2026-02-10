@@ -25,8 +25,8 @@ void main() {
       continue;
     }
 
-    int productNumber = Integer.parseInt(parts[0]) - 1; // -1, так как индексы с нуля
-    int productCount = Integer.parseInt(parts[1]);
+    int productNumber = 0;
+    int productCount = 0;
 
     basketCount[productNumber] += productCount;
   }
